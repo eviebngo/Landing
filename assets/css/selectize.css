@@ -1,0 +1,36 @@
+.selectize-control {
+    display: inline-block;
+    width: 100%;
+}
+
+.selectize-dropdown {
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 9999;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    margin-top: 1px;
+}
+
+.selectize-input {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.selectize-input.focus {
+    border-color: #aaa;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.selectize-input input {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 14px;
+}

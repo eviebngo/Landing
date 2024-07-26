@@ -1,0 +1,9 @@
+.noscript {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .noscript {
+        display: block;
+    }
+}

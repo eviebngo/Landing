@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 14pt;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+    background-color: #e4e2dc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #333;
+}
+
+a {
+    transition: color .25s ease-in-out;
+    text-decoration: underline;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+strong, b {
+    font-weight: 700;
+    color: #484d55;
+}
+
+blockquote {
+    border-left: solid 0.5em #ddd;
+    padding: 1em 0 1em 2em;
+    font-style: italic;
+}
+
+em, i {
+    font-style: italic;
+}
+
+hr {
+    border: 0;
+    border-top: solid 1px #ddd;
+    margin: 2em 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 68em;
+}
+
+@media screen and (max-width: 1680px) {
+    .container {
+        width: 70em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .container {
+        width: calc(100% - 40px);
+    }
+}

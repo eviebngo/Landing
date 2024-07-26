@@ -1,0 +1,56 @@
+.icon {
+    text-decoration: none;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    text-transform: none !important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.icon > .label {
+    display: none;
+}
+
+.icon.solid:before {
+    font-weight: 900;
+}
+
+.icon.brands:before {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+/* Social Media Icons */
+/* Social Cards */
+.connect-icons ul {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    list-style-type: none; /* Remove default list styling */
+    padding: 100px; /* Remove default padding */
+}
+
+.connect-icons li {
+    margin: 0 10px; /* Adjust the space between icons as needed */
+}
+
+.connect-icons a {
+    font-size: 50px; /* Adjust the size of the icons as needed */
+    color: #000; /* Set the color of the icons */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.connect-icons a:hover {
+    color: #0077b5; /* Change color on hover for LinkedIn */
+}
+
+.connect-icons a.fab.fa-github:hover {
+    color: #333; /* Change color on hover for GitHub */
+}
